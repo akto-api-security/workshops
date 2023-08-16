@@ -1,7 +1,7 @@
 # What is Akto? 
 Open source API Security platform
 
-# How to install Akto on your laptop?
+## How to install Akto on your laptop?
 1. Create a directory named `owasp-akto`
 2. Copy these 2 files in your directory
   - You can get `docker-compose.yml` file from here - https://github.com/akto-api-security/akto/blob/master/docker-compose.yml
@@ -9,13 +9,13 @@ Open source API Security platform
 3. Run `docker-compose up -d`
 4. Open http://localhost:9090 on your browser
 
-# Sign up
+## Sign up
 1. Click on the "sign-up" button on the screen if you are running it for the first time else simply login.
 2. Enter an email / password and signup 
 3. Login with the same credentials
 4. If an onboarding popup comes, you can skip it. We are going to be ninjas on Akto by end of workshop any way :) 
    
-# Get API Inventory - Juiceshop
+## Get API Inventory - Juiceshop
 1. You should already see a Juiceshop inventory with ~19 APIs or so.
 2. But lets just create our own. Go to `Quick start` > `Connect traffic data` > `Burpsuite` and follow the steps
 3. Download AktoBurp extension from the link on the dashboard
@@ -26,9 +26,9 @@ Open source API Security platform
 8. Do a signup > login > add a review > edit review > add to basket > checkout > add quantity > add credit card > add address > pay > add a complaint > add a feedback etc. etc. etc.
 9. You should see 70+ APIs in your inventory now.
 
-# Add your own data type
+## Add your own data type
 
-# Explore ChatGPT cases
+## Explore ChatGPT cases
 
-# Add test cases
+## Add test cases
 
