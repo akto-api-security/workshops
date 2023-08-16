@@ -53,3 +53,11 @@ Documentation for reference - https://docs.akto.io/test-editor/overview
 1. Track-orders endpoint - write data on the screen that was never intended!
 2. Modify query-param
 3. Validate using regex
+
+#### 9. SQL Injection
+1. Start with the login endpoint.
+2. https://juiceshop.akto.io/rest/user/login - try using `' or 1=1--` as username?
+
+#### 10. Parameter pollution
+1. Modifying basket of a diff user
+
