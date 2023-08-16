@@ -33,4 +33,23 @@ Documentation for reference - https://docs.akto.io/test-editor/overview
 1. Write a YAML file to hardcode "Authorization" header with a None-token. Alternatively, use Akto's `${auth_context.none_algo_token}`
 2. What are the implications?
 
+#### 3. Exposed Prometheus tracking endpoint to public?
+1. Try hitting /metrics endpoint?
 
+#### 4. Give a 0-star rating
+1. Modify request payload to set the rating to 0
+
+#### 5. Broken Authorization by a diff user
+1. Modify the auth token to a diff user and try editing a review? (PATCH review) 
+
+#### 6. Get a list of all feedbacks
+1. Given an endpoint to submit a feedback, how do you try and get a list of all feedbacks?
+
+#### 7. Open redirect
+1. Why is it a problem?
+2. Modify a query parameter this time!
+
+#### 8. XSS 
+1. Track-orders endpoint - write data on the screen that was never intended!
+2. Modify query-param
+3. Validate using regex
