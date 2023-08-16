@@ -19,5 +19,18 @@ Login here - app.akto.io
 8. Do a signup > login > add a review > edit review > add to basket > checkout > add quantity > add credit card > add address > pay > add a complaint > add a feedback etc. etc. etc.
 9. You should see 70+ APIs in your inventory now.
 
+
 ### Step 3: Start writing test cases
+Documentation for reference - https://docs.akto.io/test-editor/overview
+
+#### 1. Broken Authentication test by deleting auth token entirely!
+1. Write a YAML file to remove the Authorization header
+2. Try it on GET reviews endpoint, PUT reviews endpoint. 
+3. What are the implications?
+4. How about PATCH reviews endpoint? 
+
+#### 2. Broken Authentication test by JWT None algo
+1. Write a YAML file to hardcode "Authorization" header with a None-token. Alternatively, use Akto's `${auth_context.none_algo_token}`
+2. What are the implications?
+
 
